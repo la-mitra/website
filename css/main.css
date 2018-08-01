@@ -72,3 +72,15 @@ img {
     font-weight: 100;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width: 500px) {
+    .logo-container img {
+        display: block;
+        position: relative;
+        right: .2em;
+        max-width: 10em;
+        margin: 0 auto;
+    }
+}
+
+/* TODO -- Manage screen orientation */
