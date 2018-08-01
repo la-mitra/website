@@ -1,0 +1,27 @@
+{
+  "name": "mitra_website",
+  "authors": [
+    "nickballeste <nickballeste@gmail.com>"
+  ],
+  "description": "mitra is a solar enterprise that believes autonomy is power. This is mitra's official website.",
+  "main": "",
+  "keywords": [
+    "mitra",
+    "photovoltaic",
+    "energy",
+    "solar",
+    "tech"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
+}
