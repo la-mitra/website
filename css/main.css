@@ -8,6 +8,7 @@ html, body {
 
 body {
     font-size: 1.3em;
+    background: linear-gradient(to bottom,rgb(42, 116, 165),  rgb(160, 213, 248));
 }
 
 img {
@@ -15,18 +16,9 @@ img {
     width: 100%;
 }
 
-.onepage-pagination li a:before{
-    background: rgba(255, 255, 255, 0.705);
-}
-
-.onepage-pagination li a.active:before{
-    border: 1px solid rgba(255, 255, 255, .9);
-}
-
 .wrapper {
     position: relative;
     height: 100vh;
-    background: linear-gradient(to bottom,rgb(42, 116, 165),  rgb(160, 213, 248));
 }
 
 .wrapper canvas {
@@ -53,6 +45,14 @@ img {
 
 .wrapper h1:hover {
     transform: scale(1.1);
+}
+
+.onepage-pagination li a:before{
+    background: rgba(255, 255, 255, 0.705);
+}
+
+.onepage-pagination li a.active:before{
+    border: 1px solid rgba(255, 255, 255, .9);
 }
 
 .down-arrow {
@@ -121,13 +121,55 @@ img {
 }
 }
 
-.brown {
-    background-color: brown;
+.service-features {
+    background-color: aliceblue;
+    position: relative;
+    font: .5em/1.5 "Open Sans", sans-serif;
+    width: 100vw;
 }
 
-.green {
-    background-color: green;
+.feature {
+    display: flex;
+    position: relative;
+    top: 2em;
+    justify-content: left;
+    margin-bottom: 2em;
 }
+
+.feature-icon {
+    display: inline-block;
+    position: relative;
+    flex: 1;
+    left: 2em;
+    text-align: left;
+    
+}
+
+.feature-icon i {
+   font-size: 10em;
+}
+
+.feature-content {
+    margin-left: 1em;
+    margin-top: 10px;
+    display: inline-block;
+    flex: 2;
+}
+
+.feature-title {
+    display: inline;
+    font-size: 1em;
+}
+
+.feature-title h1 {
+    font-size: 2em;
+}
+
+.feature-description {
+    text-align: left;
+}
+
+
 
 .contato {
     color: rgb(59, 59, 59);
