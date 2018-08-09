@@ -121,19 +121,29 @@ img {
 }
 }
 
+/* SERVICE FEATURES SECTION */
+
+.section-description {
+    position: relative;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
 .service-features {
     background-color: aliceblue;
     position: relative;
     font: .5em/1.5 "Open Sans", sans-serif;
     width: 100vw;
+    height: 100vh;
 }
 
 .feature {
     display: flex;
     position: relative;
+    height: 5.4em;
     top: 2em;
     justify-content: left;
-    margin-bottom: 2em;
+    margin-bottom: 4.2em;
 }
 
 .feature-icon {
@@ -146,14 +156,19 @@ img {
 }
 
 .feature-icon i {
-   font-size: 10em;
+    font-size: 7em;
 }
 
 .feature-content {
-    margin-left: 1em;
-    margin-top: 10px;
+    position: relative;
+    margin-left: -.5em;
+    margin-top: .1em;
     display: inline-block;
     flex: 2;
+}
+
+.feature-content h1 {
+    font-weight: bold;
 }
 
 .feature-title {
@@ -162,7 +177,7 @@ img {
 }
 
 .feature-title h1 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .feature-description {
