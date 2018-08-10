@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Cinzel:400,900|Raleway:100,400,900');
+
 
 html, body {
     padding: 0;
@@ -8,7 +10,6 @@ html, body {
 
 body {
     font-size: 1.3em;
-    background: linear-gradient(to bottom,rgb(42, 116, 165),  rgb(160, 213, 248));
 }
 
 img {
@@ -17,8 +18,10 @@ img {
 }
 
 .wrapper {
+    background: linear-gradient(to bottom,rgb(42, 116, 165),  rgb(160, 213, 248));
     position: relative;
     height: 100vh;
+    width: 100vw;
 }
 
 .wrapper canvas {
@@ -121,20 +124,63 @@ img {
 }
 }
 
+/* BRAND PURPOSE SECTION */
+
+.brand-purpose {
+    background: linear-gradient(to bottom,rgb(160, 213, 248), rgba(182, 45, 102, 0.623));
+    padding: 1.4em;
+    padding-top: 2.5em;
+    font-family: 'Raleway';
+    font-weight: 100;
+    color: white;
+}
+
+.brand-purpose-item h4 {
+    margin-bottom: 1em;
+}
+
+.brand-purpose-item {
+    margin-bottom: 3em;
+}
+
+.brand-purpose-item .highlight {
+    margin-top: -.7em;
+    letter-spacing: .08em;
+    font-weight: 400;
+}
+
+.brand-purpose-item .bold {
+    font-weight: 400;
+}
+
+.brand-purpose-item h4 {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+
 /* SERVICE FEATURES SECTION */
 
+.service-features {
+    box-shadow: 0px 0px 0px 0px rgb(160, 213, 248);
+    background: linear-gradient(to bottom,rgba(182, 45, 102, 0.623), rgb(47, 187, 140));
+    position: relative;
+    font: .5em/1.5 "Raleway", sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
 .section-description {
+    color: aliceblue;
     position: relative;
     margin-left: 2em;
     margin-top: 2em;
 }
 
-.service-features {
-    background-color: aliceblue;
-    position: relative;
-    font: .5em/1.5 "Open Sans", sans-serif;
-    width: 100vw;
-    height: 100vh;
+.section-description p {
+    margin-left: .3em;
+    font-size: 1.3em;
 }
 
 .feature {
@@ -157,9 +203,11 @@ img {
 
 .feature-icon i {
     font-size: 7em;
+    color: aliceblue;
 }
 
 .feature-content {
+    color: aliceblue;
     position: relative;
     margin-left: -.5em;
     margin-top: .1em;
