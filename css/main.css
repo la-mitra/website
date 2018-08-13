@@ -175,6 +175,10 @@ img {
     margin-top: 2em;
 }
 
+.section-description h1 {
+    font-size: 3.2em;
+}
+
 .section-description p {
     margin-top: -.5em;
     margin-left: .3em;
@@ -272,6 +276,7 @@ img {
     padding: .5em .5em .2em .5em;
     margin-left: 2em;
     margin-right: 2em;
+    margin-bottom: .1em;
 }
 
 .category-description p {
