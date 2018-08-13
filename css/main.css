@@ -10,6 +10,7 @@ html, body {
 
 body {
     font-size: 1.3em;
+    background: linear-gradient(to bottom,rgb(42, 116, 165),  rgb(160, 213, 248));
 }
 
 img {
@@ -18,7 +19,7 @@ img {
 }
 
 .wrapper {
-    background: linear-gradient(to bottom,rgb(42, 116, 165),  rgb(160, 213, 248));
+    /* background: linear-gradient(to bottom,rgb(42, 116, 165),  rgb(160, 213, 248)); */
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -127,7 +128,7 @@ img {
 /* BRAND PURPOSE SECTION */
 
 .brand-purpose {
-    background: linear-gradient(to bottom,rgb(160, 213, 248), rgba(182, 45, 102, 0.623));
+    /* background: linear-gradient(to bottom,rgb(160, 213, 248), rgba(182, 45, 102, 0.623)); */
     padding: 1.4em;
     padding-top: 2.5em;
     font-family: 'Raleway';
@@ -163,7 +164,7 @@ img {
 
 .service-features {
     box-shadow: 0px 0px 0px 0px rgb(160, 213, 248);
-    background: linear-gradient(to bottom,rgba(182, 45, 102, 0.623), rgb(47, 187, 140));
+    /* background: linear-gradient(to bottom,rgba(182, 45, 102, 0.623), rgb(47, 187, 140)); */
     position: relative;
     font: .5em/1.5 "Raleway", sans-serif;
     width: 100vw;
@@ -240,7 +241,7 @@ img {
 /* SERVICE CATEGORY */
 
 .categories {
-    background: linear-gradient(to bottom,rgb(47, 187, 140), rgb(178, 90, 201));
+    /* background: linear-gradient(to bottom,rgb(47, 187, 140), rgb(178, 90, 201)); */
     padding-top: .5em;
     color: aliceblue;
 }
