@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Cinzel:400,900|Raleway:100,400,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Cinzel:400,900|Raleway:100,400,500,600,900');
 
 
 html, body {
@@ -10,7 +10,7 @@ html, body {
 
 body {
     font-size: 1.3em;
-    background: linear-gradient(to bottom,rgb(42, 116, 165),  rgb(160, 213, 248));
+    background: linear-gradient(to bottom,rgb(42, 116, 165),  rgb(130, 181, 214));
 }
 
 img {
@@ -37,7 +37,7 @@ img {
     max-width: 20em;
 }
 
-.wrapper h1 {
+.logo-wrapper h1 {
     font: .8em/1.5 "Open Sans", sans-serif;
     letter-spacing: .3em;
     margin-top: 1em;
@@ -163,8 +163,6 @@ img {
 /* SERVICE FEATURES SECTION */
 
 .service-features {
-    box-shadow: 0px 0px 0px 0px rgb(160, 213, 248);
-    /* background: linear-gradient(to bottom,rgba(182, 45, 102, 0.623), rgb(47, 187, 140)); */
     position: relative;
     font: .5em/1.5 "Raleway", sans-serif;
     width: 100vw;
@@ -180,7 +178,7 @@ img {
 
 .section-description p {
     margin-left: .3em;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .feature {
@@ -208,8 +206,8 @@ img {
 .feature-content {
     color: aliceblue;
     position: relative;
-    margin-left: -4em;
-    margin-top: .1em;
+    margin-left: -3em;
+    margin-top: -1em;
     display: inline-block;
     padding-bottom: 2em;
     flex: 2;
@@ -233,25 +231,30 @@ img {
 
 .feature-description {
     text-align: left;
-    margin-right: 2em;
+    margin-right: 3em;
     padding-right: 3em;
     margin-top: -1em;
+}
+
+.feature-description p {
+    font-size: 1.05em;
+    font-weight: 500;
 }
 
 /* SERVICE CATEGORY */
 
 .categories {
-    /* background: linear-gradient(to bottom,rgb(47, 187, 140), rgb(178, 90, 201)); */
+    margin-left: -1em;
     padding-top: .5em;
     color: aliceblue;
 }
 
 .category-content {
-    text-align: center;
-    margin-bottom: .6em;
+    margin-bottom: -.5em;
 }
 
 .category-title {
+    margin-left: 2.4em;
     text-transform: uppercase;
     padding-top: 1em;
 }
@@ -267,49 +270,46 @@ img {
     padding: .5em .5em .2em .5em;
     margin-left: 2em;
     margin-right: 2em;
-    border-style: solid;
-    border-radius: 3% 3%;
 }
 
 .category-description p {
     font-family: "Raleway";
     font-size: .7em;
+    justify-content: left;
 }
 
 
 /* CONTACT SECTION */
-.contato {
-    color: rgb(59, 59, 59);
-    display: block;
-    position: relative;
-    font: .5em/1.5 "Open Sans", sans-serif;
-    margin: auto;
-    width: max-content;
+.contact-title {
+    margin: 2em;
+    color: aliceblue;
+}
+
+.contact-title h1 {
+    font: 1.3em 'Raleway';
     text-align: center;
-    top: 50%;
-    transition: all .2s ease-in-out;
+    letter-spacing: .1em;
 }
 
-.contato:hover {
-    color: white;
-    transform: scale(1.1);
-}
-.contato h2 {
-    font-weight: 100;
-}
-
-.contato h2:hover {
-    transform: scale(1.2);
+.call-to-action {
+    text-align: center;
+    margin: 2em auto;
+    padding: 1em;
+    padding-top: 1.2em;
+    width: 70%;
+    background: aliceblue;
+    border-radius: 6px;
 }
 
-.contato h2 a:link {
+.call-to-action .title h3 {
+    color: rgb(49, 136, 194);
+    font-family: 'Raleway';
+    font-size: 1em;
+}
+
+.call-to-action a {
+    color: rgb(49, 136, 194);
     text-decoration: none;
-    color: inherit;
-}
-
-.contato h3 {
-    font-weight: 100;
-    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 500px) {
