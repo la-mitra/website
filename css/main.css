@@ -50,11 +50,11 @@ img {
     transform: scale(1.1);
 }
 
-.onepage-pagination li a:before{
+.onepage-pagination li a:before {
     background: rgba(255, 255, 255, 0.555);
 }
 
-.onepage-pagination li a.active:before{
+.onepage-pagination li a.active:before {
     border: 1px solid rgba(255, 255, 255, .555);
 }
 
@@ -194,14 +194,16 @@ img {
     display: inline-block;
     position: relative;
     flex: 1;
-    left: 2em;
-    text-align: left;    
+    right: 1.4em;
+    text-align: center;    
 }
 
 .feature-icon i {
-    font-size: 6em;
+    position: relative;
+    font-size: 4em;
     color: aliceblue;
 }
+
 
 .feature-content {
     color: white;
@@ -232,7 +234,7 @@ img {
 .feature-description {
     text-align: left;
     margin-right: 3em;
-    padding-right: 3em;
+    padding-right: 2.3em;
     margin-top: -1em;
 }
 
@@ -291,7 +293,7 @@ img {
 }
 
 .contact-title h1 {
-    font: 1.3em 'Raleway';
+    font: 1.2em 'Raleway';
     text-align: center;
     letter-spacing: .1em;
 }
@@ -316,7 +318,11 @@ img {
     font-size: 1em;
 }
 
-.call-to-action a {
+a:hover {
+    text-decoration: none !important;
+}
+
+.call-to-action i {
     color: rgb(63, 179, 255);
     text-decoration: none;
 }
@@ -351,8 +357,6 @@ footer {
 }
 
 
-
-
 @media only screen and (max-width: 500px) {
     .logo-wrapper img {
         display: block;
@@ -361,6 +365,91 @@ footer {
         max-width: 10em;
         margin: 0 auto;
     }
+}
+
+@media only screen and (min-width: 1024px) {
+    .logo-wrapper h1 {
+        font-size: 1.2em;
+    }
+
+    .brand-purpose-item h4 {
+        margin-left: 1em;
+        font-size: 2em;
+    }
+
+    .brand-purpose-item p {
+        margin-left: 1.4em;
+        margin-top: 2em;
+        font-size: 1.3em;
+    }
+
+    .brand-purpose-item .highlight {
+        margin-left: 1.2em;
+        font-size: 1.5em;
+    }
+
+    .service-features .section-description {
+        top: 1em;
+        left: 6em;
+    }
+    .service-features .section-description p {
+        font-size: 1.8em;
+    }
+
+    .feature {
+        width: 80%;
+    }
+
+    .feature .feature-icon {
+        top: 1em;
+        left: 1em;
+    }
+
+    .feature .feature-content {
+        font-size: 1.3em;
+        margin-top: .1em;
+        right: 3em;
+    }
+
+    .category {
+        font-size: 1.1em;
+        margin-top: 2em;
+    }
+
+    .category-title {
+        color: rgb(97, 170, 219)
+    }
+
+    .category .category-description p {
+        margin-top: -.5em;
+        font-size: .9em;
+    }
+
+    .contact-title {
+        position: relative;
+        top: 4em;
+    }
+    .call-to-action {
+        position: relative;
+        top: 4em;
+        width: 30%;
+    }
+
+    .company-info {
+        position: relative;
+        top: 2em;
+    }
+
+    .company-info #time {
+        float:right;
+    }
+
+    .company-info #address {
+    }
+}
+
+@media only screen and (max-width: 1435px){ 
+    
 }
 
 /* TODO -- Manage screen orientation */
