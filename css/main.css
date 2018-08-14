@@ -469,13 +469,90 @@ footer {
     .company-info #time {
         float:right;
     }
-
-    .company-info #address {
-    }
 }
 
-@media only screen and (max-width: 1435px){ 
+@media only screen and (min-width: 1440px){ 
+    .brand-purpose-item h4 {
+        margin-left: 1em;
+        font-size: 3em;
+    }
+
+    .brand-purpose-item p {
+        margin-top: 1em;
+        font-size: 2em;
+        width: 80%;
+    }
+
+    .brand-purpose-item .highlight {
+        margin-left: 1.5em;
+        font-size: 2em;
+    }
+
+    .service-features .section-description {
+        margin-left: -2em;
+        margin-top: 1em;
+        font-size: 2em;
+    }
+    .service-features .section-description p {
+        font-size: 1.8em;
+    }
+
+    .feature {
+        margin-left: -7em;
+        margin-top: 8.5em;
+        top: -4.5em;
+        width: 80%;
+    }
+
+   .feature-icon {
+        font-size: 2em;
+    }
+
     
+    .feature-title h1 {
+        font-size: 2em;
+    }
+    
+    .feature-description p {
+        font-size: 1.6em;
+    }
+
+    .category {
+        font-size: 1.5em;
+        margin-top: 2em;
+    }
+
+    .category-title {
+        color: rgb(97, 170, 219)
+    }
+
+    .category .category-description p {
+        margin-top: -.5em;
+        font-size: .9em;
+    }
+
+    .contact-title {
+        font-size: 2em;
+        position: relative;
+        top: 1em;
+    }
+
+    .call-to-action {
+        font-size: 2em;
+        position: relative;
+        top: -.5em;
+        width: 40%;
+    }
+
+    .company-info {
+        font-size: 1.5em;
+        position: relative;
+        top: -.1em;
+    }
+
+    .company-info #time {
+        float:right;
+    }
 }
 
 /* TODO -- Manage screen orientation */
