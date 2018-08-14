@@ -378,7 +378,28 @@ footer {
     }
 
     .company-info {
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-height: 590px) {
+    .brand-purpose-item {
+        margin-bottom: 2.3em;
+    }
+
+    .feature {
         font-size: .9em;
+        margin-bottom: 3em;
+        bottom: 1em;
+    }
+
+    .category {
+        font-size: .9em;
+        margin-bottom: -1.8em;
+    }
+
+    .company-info {
+        font-size: .7em;
     }
 }
 
